@@ -6,13 +6,16 @@ The Steampunk Calendar Orrery Yahoo Widget, written in Javascript
 and XML for the Yahoo Widget (Konfabulator) Engine. Created for XP, Vista, Win7, 
 8, 10+ as well as  Apple Mac Sierra.
 
-
+![orrery0001](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/6ab67c12-a8ea-4616-8bae-dd8c99d8889d)
 
 This Steampunk Calendar Orrery Yahoo Widget is an attractive steampunk 
 Yahoo widget for your desktop. Think of it as a piece of Space 1899 high tech. 
 - perhaps the Martian attack has failed and the humans are returning to Mars for 
 their revenge? This is a piece of the Victorian space technology that human 
 space farers might use in their quest for conquest of Mars.
+
+![avatar-orrerymkII-300](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/3c37d026-4b6a-48f5-91c1-12691135726e)
+
 
 In reality it is one my Steampunk widgets. You can select a date and enter a 
 memorandum for that date, it is fully configurable. An elegant widget - give it 
@@ -29,6 +32,8 @@ roughly follows the track of the window circular frame. The inner wheel with
 lots of bolts counter-rotates as the main calendar ring rotates. The widget is 
 fully resizable. The right and left hand cogs now rotate.
 
+![orrery-desktop](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/17aebd32-63c4-4fe1-bdaf-ff32a3876426)
+
 It was based upon a superb blog navigation device on Ian Tregillis site created 
 by Richard Mueller of 3232 design. His superb bit of Adobe Flash was really 
 inspirational and it made me want to complete it (the original only shows 50% of 
@@ -39,7 +44,6 @@ the original here:
 	www.iantregillis.com/
 
 
- 
 These Widgets are moveable widgets that you can move anywhere around the 
 desktop as you require.The widgets can be resized - Hover the cursor over the 
 widget. Press the CTRL key and use your mousewheel up or down. The widget will 
@@ -114,6 +118,7 @@ Wit these instructions you should be able to start Yahoo! Widgets and the
 menubar item should appear. Widgets can then be started from the menubar or by 
 double-clicking on the KON file in the usual way.
 
+![orrery-background](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/3c864ebc-f779-4c30-8851-7e02e3dfe420)
 
 
 LICENCE AGREEMENTS:

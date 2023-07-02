@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget minimumVersion="4.5">
+    <!--
+    TimeKeeper - A Steampunk Clock and Calendar
+    Copyright © 2012 Dean Beedell and Harry Whitfield
+
+    This program is free software; you can redistribute it and/or
+    modify it under the terms of the GNU General Public License as
+    published by the Free Software Foundation; either version 2 of
+    the License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.    See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public
+    License along with this program; if not, write to the Free
+    Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston,
+    MA  02110-1301  USA
+
+    TimeKeeper - version 5.2.3
+    27 April, 2012
+    Copyright © 2012 Dean Beedell and Harry Whitfield
+    mailto:g6auc@arrl.net
+    -->
+
+
+    <about-box>
+        <image>Resources/Orrery/About.png</image>
+        <about-text font="Times" color="#000000" vOffset="205" style="Bold" hOffset="81" data="version " size="12"/>
+        <about-version font="Times" color="#000000" vOffset="205" style="Bold" hOffset="118" size="12"/>
+        <about-text font="Times" color="#565b5f" vOffset="205" style="regular" hOffset="155" data="" size="12"/>
+    </about-box>
+
+
+        <action trigger="onKeyDown">
+              <![CDATA[
+                if (system.event.keyCode==116) {
+                    print("pressing restart "+system.event.keyCode);
+                    reloadWidget();
+                }
+               ]]>
+        </action>
+        
+  <preferenceGroup name="calendar" order="1" icon="Resources/Images/orrery.png" title="Calendar"/>
+  <preferenceGroup name="colors" order="10" icon="Resources/Images/colors.png" title="Colors"/>
+  <preferenceGroup name="errors" order="15" icon="Resources/Images/errors.png" title="Errors"/>
+  <preferenceGroup name="fonts" order="20" icon="Resources/Images/fonts.png" title="Fonts"/>
+  <preferenceGroup name="geometry1" order="30" icon="Resources/Images/geometry.png" title="Geometry 1"/>
+  <preferenceGroup name="geometry2" order="40" icon="Resources/Images/geometry.png" title="Geometry 2"/>
+  <preferenceGroup name="memos" order="50" icon="Resources/Images/memos.png" title="Memos"/>
+  <preferenceGroup name="network" order="60" icon="Resources/Images/network.png" title="Network"/>
+  <preferenceGroup name="speech" order="70" icon="Resources/Images/speech.png" title="Sound"/>
+  <preferenceGroup name="animation" order="4" icon="Resources/Images/layer45.png" title="Animation"/>
+  <preferenceGroup name="moon" order="4" icon="Resources/Images/000.png" title="Moon"/>
+  <preferenceGroup name="sunrise" order="80" icon="Resources/Images/sunrise.png" title="Sunrise/Sunset"/>
+  <preferenceGroup name="development" order="90" icon="Resources/images/development-icon.png" title="Development"/>
+
+  <preference hidden="false" description="Turning on the debugging will provide extra information in the debug window. To obtain the debug window press SHIFT+CTRL simultaneously whilst right clicking on the Yahoo widget systray icon, then select debug from the drop down menu. You will need to restart the widget properly rather than doing a simple restart for debugging information to appear." name="debugflgPref" group="development" title="Debug:" defaultValue="1" type="popup">
+      <option>Debug OFF</option>
+      <optionValue>0</optionValue>
+      <option>Debug ON</option>
+      <optionValue>1</optionValue>
+  </preference>
+  
+  <preference hidden="true" description="Development ONLY: Enter your editor path here along with any command line switches required to open this widget in the editor. This function only operates if the widget has been unpacked and DEBUG is ON. " name="imageEditPref" group="development" title="Default Editor:" defaultValue="" type="text"/>
+
+
+    <preference title="Startup Animation:" name="animatePref" type="popup" description="Enable or disable the animation of cog elements on startup." defaultValue="enable">
+		<option>enable</option>
+		<option>disable</option>
+  		<group>animation</group>
+    </preference>
+
+    <preference title="Tooltips:" name="tooltipPref" type="popup" description="Enable or disable the widget tooltips." defaultValue="enable">
+		<option>enable</option>
+		<option>disable</option>
+  		<group>animation</group>
+    </preference>
+
+    <preference title="Hover Points:" name="hoverPointPref" type="popup" description="Enable or disable the click point hover images." defaultValue="enable">
+		<option>enable</option>
+		<option>disable</option>
+  		<group>animation</group>
+    </preference>
+
+    <preference title="Ticking Animation:" name="cogAnimatePref" type="popup" description="Enable or disable smooth animation of the cog elements when ticking. Note: The smooth ticking takes up a lot more cpu cycles." defaultValue="enable">
+		<option>enable</option>
+		<option>disable</option>
+  		<group>animation</group>
+    </preference>
+
+    <preference hidden="true" name="showTitlePref" title="Always Show Title" defaultValue="0" type="checkbox"/>
+    <preference hidden="true" description="Check this box if you don't want to see the Licence Conditions again." name="licenseHide" title="Don't Show Licence Again" defaultValue="0" type="checkbox"/>
+
+    <preferenceGroup name="earth" order="4" icon="Resources/Images/earth.png" title="Earth"/>
+    <preferenceGroup name="under" order="5" icon="Resources/Images/miniUnderWidget.png" title="Under Widget"/>
+
+    <preference name="earthTurnPref">
+  		<title>Rotation</title>
+  		<type>popup</type>
+  		<option>Slow</option>
+  		<option>Fast</option>
+  		<defaultValue>Fast</defaultValue>
+  		<description>The rotation can be set to fast or slow, animation looks smoother when set to fast.</description>
+  		<group>earth</group>
+     </preference>
+
+     <preference name="earthSizePref">
+		<title>Size</title>
+		<type>popup</type>
+		<option>0.7</option>
+		<option>0.8</option>
+		<option>0.9</option>
+		<option>1.0</option>
+		<option>1.1</option>
+		<option>1.2</option>
+		<option>1.3</option>
+		<option>1.4</option>
+		<option>1.5</option>
+		<option>1.6</option>
+		<option>1.7</option>
+		<defaultValue>0.8</defaultValue>
+		<description>The rotating earth can be resized without any degradation of quality.</description>
+		<group>earth</group>
+     </preference>
+
+     <preference hidden="false" name="sizebar" group="settings" title="Size Bar:" >
+		<type>popup</type>
+		<option>enable</option>
+		<optionValue>enable</optionValue>
+		<option>disable</option>
+		<optionValue>disable</optionValue>
+		<description>Hide the size bar as you require.</description>
+		<group>earth</group>
+		<defaultValue>disable</defaultValue>
+    </preference>
+
+    <preference title="Scale:" name="scalePref" type="text" description="Changes the total size of the widget in %. Vary the percentage and the whole widget will alter in size. If you put junk or bad characters in the box it will default to 100%. 50-60% is a good size for your desktop. Smaller sizes use up less cpu when animation is triggered. Maximum value 150%. Minimum value 20%." defaultValue="58" minLength="20" maxLength="140" ticks="32" >
+    </preference>
+
+    <preference hidden="false" group="config" description="This changes the direction of the mousewheel when used to control the resizing effect (CTRL+Mousewheel)." name="MouseWheelPref" title="Mouse Scroll Wheel" defaultValue="up" type="popup">
+		<option>up</option>
+		<option>down</option>
+	</preference>
+
+
+	<preference title="Centre Glass Opacity:" name="glassOpacityPref" type="slider" description="Select the opacity of the centre glass. If the glass is slightly opaque and you have the additional clockwork mechanism widget beneath (the under widget), the cogs will show through." defaultValue="200" minLength="1" maxLength="255" ticks="16">
+		<tickLabel>1</tickLabel>
+		<tickLabel>130</tickLabel>
+		<tickLabel>255</tickLabel>
+		<group>animation</group>
+	</preference>
+
+	<preference title="Advance:" name="advancePref" type="text" description="Enter an integer to set the advance increment (in days)." defaultValue="1" group="calendar"/>
+
+	<preference description="Check this box to have the widget change date automatically." name="autoModePref" title="Automatic Date Change" defaultValue="0" type="checkbox" group="calendar"/>
+
+    <preference title="Dock Date:" name="dockDate" group="calendar" type="popup" description="Choose how the date is to be displayed in the Widget Dock." defaultValue="0">
+		<option>Today's Date</option>
+		<optionValue>0</optionValue>
+		<option>Calendar Date</option>
+		<optionValue>1</optionValue>
+    </preference>
+
+
+	<preference description="Enter a four digit year." name="yearPref" title="Year:" type="text" group="calendar"/>
+	<preference description="Choose a month." name="monthPref" title="Month:" defaultValue="1" type="popup" group="calendar">
+		<option>January</option>
+		<optionValue>1</optionValue>
+		<option>February</option>
+		<optionValue>2</optionValue>
+		<option>March</option>
+		<optionValue>3</optionValue>
+		<option>April</option>
+		<optionValue>4</optionValue>
+		<option>May</option>
+		<optionValue>5</optionValue>
+		<option>June</option>
+		<optionValue>6</optionValue>
+		<option>July</option>
+		<optionValue>7</optionValue>
+		<option>August</option>
+		<optionValue>8</optionValue>
+		<option>September</option>
+		<optionValue>9</optionValue>
+		<option>October</option>
+		<optionValue>10</optionValue>
+		<option>November</option>
+		<optionValue>11</optionValue>
+		<option>December</option>
+		<optionValue>12</optionValue>
+	</preference>
+	<preference description="Choose a day in the month." name="dayPref" title="Day:" type="text" defaultValue="1" group="calendar"/>
+	<preference hidden="false" description="Choose a hotkey to be used to display the date selection dialog. To select the Space key, use the Tab menu item." name="selectHotKeyPref"
+				title="Date Selection Hotkey:" defaultValue="Control+F8" type="hotkey" group="calendar"/>
+
+
+  
+    <preference description="Choose the color of the memo text." name="memoTextColor" group="colors" title="Memo Text Color:" defaultValue="#000000" type="color"/>
+    <preference description="Choose the background color of the memo text." name="memoTextBgColor" group="colors" title="Memo Text Background Color:" defaultValue="#93B9B0" type="color"/>
+    <preference description="Choose the color of the memo's frame." name="frameColor" group="colors" title="Memo Frame Color:" defaultValue="#000000" type="color"/>
+
+
+  
+  	<preference hidden="false" description="Check this box if you wish errors messages to be written to file." name="logFlagPref" group="errors" title="Log Error Messages to File" defaultValue="0" type="checkbox"/>
+	<preference description="Log important progress and error messages." name="lFlagPref" group="errors" title="lFlag" defaultValue="1" type="checkbox"/>
+	<preference description="Log other progress and error messages." name="eFlagPref" group="errors" title="eFlag" defaultValue="1" type="checkbox"/>
+	<preference description="Log scripts." name="sFlagPref" group="errors" title="sFlag" defaultValue="1" type="checkbox"/>
+	<preference hidden="false" description="Choose the location and name of the log file." name="logFilePref" group="errors" style="save" title="Log File" type="selector" defaultValue=""/>
+
+
+  
+      <preference hidden="false" description="Choose a font to be used for the memos. A favourite of mine to use here is the love letter typewriter font from dafont.com" name="memoFontPref" group="fonts" title="Memo Font:" defaultValue="Courier New" type="font"/>
+    <preference description="Choose the font size of the memo font." name="memoFontSizePref" group="fonts" title="Memo Font Size:" defaultValue="10" type="popup">
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+        <option>13</option>
+        <option>14</option>
+        <option>16</option>
+        <option>18</option>
+        <option>20</option>
+        <option>22</option>
+        <option>24</option>
+        <option>26</option>
+        <option>28</option>
+        <option>32</option>
+        <option>36</option>
+    </preference>
+
+    <preference hidden="true" description="Set the angle of rotation of the window (-359..359 degrees)." name="rotationPref" group="geometry2" title="Rotation:" defaultValue="0" type="text"/>
+    <preference hidden="false" description="Check the box to suppress the frame." name="framePref" group="geometry2" title="Suppress Frame" defaultValue="0" type="checkbox"/>
+    <preference hidden="false" description="Check the box to force a 4:3 aspect ratio." name="aspectRatioPref" group="geometry2" title="Fixed Aspect Ratio" defaultValue="0" type="checkbox"/>
+    <preference hidden="false" ticks="13" minLength="100" description="Choose the magnification factor for the memo window." name="memoScalePref" maxLength="400" group="geometry2" title="Memo Magnification Factor:" defaultValue="150" type="slider">
+        <tickLabel>1x</tickLabel>
+        <tickLabel>2x</tickLabel>
+        <tickLabel>3x</tickLabel>
+        <tickLabel>4x</tickLabel>
+    </preference>
+    <preference description="Select where the memo window should be anchored." name="anchorPref" group="geometry2" title="Anchor Point:" defaultValue="None" type="popup">
+        <option>None</option>
+        <option>Top Left of Screen</option>
+        <option>Top Right of Screen</option>
+        <option>Bottom Left of Screen</option>
+        <option>Bottom Right of Screen</option>
+        <option>Center of Screen</option>
+        <option>Top Left of Window</option>
+        <option>Top Right of Window</option>
+        <option>Bottom Left of Window</option>
+        <option>Bottom Right of Window</option>
+        <option>Center of Window</option>
+    </preference>
+    <preference hidden="true" name="anchorXPref" group="geometry2" title="AnchorX:" defaultValue="0" type="text"/>
+    <preference hidden="true" name="anchorYPref" group="geometry2" title="AnchorY:" defaultValue="0" type="text"/>
+
+
+
+	<preference hidden="false" description="Choose a hotkey to be used to display the memo search dialog. To select the Space key, use the Tab menu item." name="searchHotKeyPref"
+				title="Memo Search Hotkey:" defaultValue="Shift+F8" type="hotkey" group="memos"/>
+
+	<preference description="Choose how the memo for the current date is to be automatically opened." name="autoOpenPref" group="memos" title="Auto-open Today Memo:" defaultValue="Never" type="popup">
+		<option>Always</option><optionValue>Always</optionValue>
+		<option>Only when it has content</option><optionValue>Only when it has content</optionValue>
+		<option>Never</option><optionValue>Never</optionValue>
+	</preference>
+	<preference description="Check this box to have your memos stored in the Widget's Data Folder (not recommended), rather than in the User's Document Folder (the default)."
+				name="memoFolderPref" group="memos" title="Use Widget Data Folder" defaultValue="0" type="checkbox"/>
+	<preference description="Choose the access mode for files stored in the Memo Folder." name="accessModePref" group="memos" title="File Access Mode:" defaultValue="0644" type="popup">
+		<option>-rw-------</option>
+		<optionValue>0600</optionValue>
+		<option>-rw-r-----</option>
+		<optionValue>0640</optionValue>
+		<option>-rw-r--r--</option>
+		<optionValue>0644</optionValue>
+	</preference>
+
+        <preference hidden="true" description="Check this box if you don't want to see the Licence Conditions again." name="licenceHide" title="Don't Show Licence Again" defaultValue="0" type="checkbox"/>
+
+
+	<preference description="Check this box to have your memos stored in a shared folder rather than in the Widget's Data Folder or the User's Document Folder. Select the shared folder below." name="sharedMemoFolderPref" group="network" title="Use A Shared Memo Folder" defaultValue="0" type="checkbox"/>
+	<preference kind="folders" description="Choose the Shared Memo Folder." name="sharedDirectoryPref" group="network" style="open" title="Shared Memo Folder" type="selector">
+		<defaultValue/>
+	</preference>
+	<preference description="Choose the access mode for files stored in the Shared Memo Folder." name="sharedModePref" group="network" title="Shared Access Mode:" defaultValue="0666" type="popup">
+		<option>-rw-rw----</option>
+		<optionValue>0660</optionValue>
+		<option>-rw-rw-r--</option>
+		<optionValue>0664</optionValue>
+		<option>-rw-rw-rw-</option>
+		<optionValue>0666</optionValue>
+	</preference>
+	<preference description="Choose the shared update timer interval (in minutes)." name="sharedUpdateTimerPref" group="network" title="Update Interval:" defaultValue="15" type="popup">
+		<option>5</option>
+		<option>10</option>
+		<option>15</option>
+		<option>20</option>
+		<option>25</option>
+		<option>30</option>
+		<option>45</option>
+		<option>60</option>
+	</preference>
+	<preference description="Check this box to allow auto-opening of the Today Memo in Shared Memo mode." name="allowAutoOpenPref" group="network" title="Auto-open Today Memo" defaultValue="0" type="checkbox"/>
+
+
+        <preference description="Sound set here - enabled/disabled." hidden="false" group="speech" name="soundPref" title="Sound Preference" defaultValue="enable" type="popup">
+                <option>enable</option>
+		<optionValue>enable</optionValue>
+		<option>disable</option>
+		<optionValue>disable</optionValue>
+        </preference>
+
+        <preference description="The memo taker typewriter sound set here - enabled/disabled." hidden="false" group="speech" name="typewriterSoundPref" title="TypeWriter Sound Preference" defaultValue="enable" type="popup">
+                <option>enable</option>
+		<optionValue>enable</optionValue>
+		<option>disable</option>
+		<optionValue>disable</optionValue>
+        </preference>
+
+        <preference description="Ticking sound set here - enabled/disabled." hidden="false" group="speech" name="tickPref" title="Ticking Preference" defaultValue="enable" type="popup">
+                <option>enable</option>
+		<optionValue>enable</optionValue>
+		<option>disable</option>
+		<optionValue>disable</optionValue>
+        </preference>
+
+
+        <preference description="Check for moon widget - enable/disable. If the Moon widget is installed the Timekeeper widget will call it when needed." hidden="false" name="checkMoonWidgetPref" title="Moon WidgetChecking" defaultValue="enable" type="popup">
+                <option>enable</option>
+		<optionValue>enable</optionValue>
+		<option>disable</option>
+		<optionValue>disable</optionValue>
+  		<group>moon</group>
+        </preference>
+        <preference description="Check for the under widget - enable/disable. If the Under Widget is installed the Timekeeper widget will nag you to install it when the widget starts." hidden="false" name="underWidgetPref" title="Under Widget Checking" defaultValue="enable" type="popup">
+                <option>enable</option>
+		<optionValue>enable</optionValue>
+		<option>disable</option>
+		<optionValue>disable</optionValue>
+  		<group>under</group>
+        </preference>
+
+	<preference hidden="false" description="Choose a hotkey to be used to speak the current memo. To select the Space key, use the Tab menu item." name="speechHotKeyPref" group="speech" title="Speak Memo Hotkey:" defaultValue="Control+Space" type="hotkey"/>
+	<preference description="Choose the maximum time for continuous speech (in seconds)." name="maxSpeechTime" group="speech" title="Maximum Speech Time:" defaultValue="60" type="popup">
+		<option>10</option>
+		<option>20</option>
+		<option>30</option>
+		<option>40</option>
+		<option>50</option>
+		<option>60</option>
+		<option>70</option>
+		<option>80</option>
+		<option>90</option>
+		<option>100</option>
+		<option>86400</option>
+	</preference>
+	<preference description="Check this box if you wish the date to be announced when a memo is opened." name="speakDatesPref" group="speech" title="Speak Memo Dates" defaultValue="0" type="checkbox"/>
+	<preference description="Check this box if you wish spoken memo dates to be in Engish." name="speakEnglishDatesPref" group="speech" title="Speak Dates in English" defaultValue="0" type="checkbox"/>
+
+
+	<preference description="Choose the type of sunrise/sunset calculation." name="zenithPref" group="sunrise" title="Sunrise/Sunset Type:" defaultValue="90.8333" type="popup">
+		<option>Official</option>
+		<optionValue>90.8333</optionValue>
+		<option>-</option>
+		<optionValue>-</optionValue>
+		<option>Civil</option>
+		<optionValue>96</optionValue>
+		<option>Nautical</option>
+		<optionValue>102</optionValue>
+		<option>Astronomical</option>
+		<optionValue>108</optionValue>
+	</preference>
+	<preference hidden="false" description="Enter a latitude (dd mm ss.ssss N/S) in this box." name="latitudePref" group="sunrise" title="Latitude:" type="text">
+		<defaultValue/>
+	</preference>
+	<preference hidden="false" description="Enter a longitude (ddd mm ss.ssss E/W) in this box." name="longitudePref" group="sunrise" title="Longitude:" type="text">
+		<defaultValue/>
+	</preference>
+	<preference description="Enter the altitude to be used in the calculation." name="altitudePref" group="sunrise" title="Altitude:" defaultValue="0" type="text"/>
+	<preference description="Choose the units to be used for the altitude." name="altitudeUnitsPref" group="sunrise" title="Units:" defaultValue="metres" type="popup">
+		<option>feet</option>
+		<option>metres</option>
+	</preference>
+	<preference description="Choose the timezone to be used for the display of sunrise and sunset times." name="timeZonePref" group="sunrise" title="Time Zone:" defaultValue="My Local Time" type="popup">
+		<option>My Local Time</option><optionValue>My Local Time</optionValue>
+		<option>Universal Time</option><optionValue>Universal Time</optionValue>
+		<option>-</option><optionValue>-</optionValue>
+		<option>As indicated below...</option><optionValue>As indicated below...</optionValue>
+	</preference>
+	<preference description="Enter the number of hours that the time zone differs from UTC(GMT). Zones west of Greenwich take negative values. Offsets should be expressed in hours, with a decimal part, if need be." name="timeZoneOffset" group="sunrise" title="Time Zone Offset:" defaultValue="0" type="text"/>
+	<preference description="Check this box if you would like rise and set times to be shown in 12-hour format." name="hour12Pref" group="sunrise" title="Use 12-Hour Clock" defaultValue="0" type="checkbox"/>
+
+	<preference hidden="true" description="" name="lastSearchString" title="String:" defaultValue="" type="text"/>
+
+	<preference hidden="false" description="The widget can be locked in place by a locking pin on the wooden surround, you can control it here too." name="widgetLockPref" title="Widget Locked:" defaultValue="0" type="popup">
+		<option>1</option><optionValue>enabled</optionValue>
+		<option>0</option><optionValue>disabled</optionValue>
+	</preference>
+
+	<preference hidden="false" group="timepiecesize" description="Here you can set the widget Hoffset/Left X default position." name="hoffsetpref" title="Hoffset/Left X pos" type="text"/>
+	<preference hidden="false" group="timepiecesize" description="Here you can set the widget Yoffset/Top Y default position. Both set when you click the locking pin." name="voffsetpref" title="Yoffset/Top Y pos" type="text"/>
+
+        <preference hidden="true" description="" name="pinHoffsetPref" title="String:" defaultValue="" type="text"/>
+	<preference hidden="true" description="" name="pinVoffsetPref" title="String:" defaultValue="" type="text"/>
+	<preference hidden="false" group="moon" description="For development purposes - The alternative location for the subsidiary Moon Widget. Only place a folder and filename here if you have the moon widget in an different folder and not the standard widget folder, eg. D:/MyWidgets/Moon_Phase_III/Contents/moon_phase_iii.kon - I suggest you leave it empty." name="widgetLocationPref" title="Moon Widget Alternate location:" defaultValue="" type="text"/>
+        <preference hidden="false" description="For development purposes - The alternative location for the subsidiary Under Widget. Only place a folder and filename here if you have the under widget in an different folder and not the standard widget folder, eg. D:/MyWidgets/underwidget/Contents/underwidget.kon - I suggest you leave it empty." name="underwidgetLocationPref" title="Under Widget Alternate location:" group="under" defaultValue="" type="text"/>
+
+	<timer name="earthTimer" ticking="false" interval=".2">
+		<onTimerFired>
+			<![CDATA[
+        		if(preferences.earthTurnPref.value !== "Still") {
+                	earthTurn();
+                }
+			]]>
+		</onTimerFired>
+	</timer>
+
+
+
+        <window
+		title		= "timekeeper"
+		name		= "main_window"
+		width		= "568 "
+		height		= "528 "
+		visible		= "true"
+		shadow		= "false"
+	>
+
+    <!--
+     This is here as I don't want the pop up plaque to be resizable
+    -->
+
+                <image
+                    src         = "Resources/Orrery/popUpPlaque.png"
+                    name        = "popUpPlaque"
+                    hOffset     = "101"
+                    vOffset     = "60"
+                    width       = "180"
+                    height      = "252"
+                    opacity     = "0"
+                    zorder       = "110"
+                />
+        
+
+                <image
+                    src         = "Resources/Orrery/missingmoonplaque.png"
+                    name        = "missingMoonPlaque"
+                    hOffset     = "101"
+                    vOffset     = "60"
+                    width       = "193"
+                    height      = "254"
+                    opacity     = "0"
+                    zorder       = "110"
+                />
+
+                <image
+                    src         = "Resources/Orrery/plaqueButton.png"
+                    name        = "plaqueButton"
+                    hOffset     = "18"
+                    vOffset     = "98"
+                    width       = "148"
+                    height      = "65"
+                    opacity     = "0"
+                    zorder       = "111"
+                />
+
+		<contextMenuItems>
+			<menuItem onSelect="backupMemos();" title="Backup Memos..."/>
+		</contextMenuItems>
+	</window>
+
+        <window visible="false" opacity="255" vOffset="36" name="memo_window" alignment="left" width="360" title="timekeeper" hOffset="72" level="normal" height="320" shadow="false"/>
+
+	<script src="Resources/Scripts/script.js"></script>
+</widget>

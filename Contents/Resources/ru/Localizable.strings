@@ -1,0 +1,925 @@
+﻿/*
+	Month Calendar: Russian Localization File
+	Written by geo (geoshe@yandex.ru)
+	Version 3.6.3
+
+	Localization instructions:
+	- When localizing, only change the items on the right side of the "equals" signs.
+	- There is no need to change things in comments like this one.
+	- Make sure to use colons and ellipses where they're used here.
+	- Please ensure that the file is saved with UTF-8 encoding.
+	- Best viewed at tab size 4.  Do not use soft tabs.
+	- Make sure to change the name and email address given above so we can give you
+	  credit for your work!  Submissions without this information will not be considered.
+	- It's *highly* preferred that you start with the English localization file if you
+	  can, as subsequent translations can obscure the intended meaning.
+
+	Variable data information:
+	- There are some areas where the grammar may vary from region to region.  For those
+	  instances, we've created a specific format for localization.  Anything within
+	  double percent signs is a variable that is inserted by the Widget at runtime.
+	- Anything within double percent signs must *not* be localized, however you may
+	  rearrange or omit items as necessary.  Anything outside double-percent signs may
+	  be localized as normal.
+	- For said items with double-percent-sign variables in them, we've provided a list
+	  of valid variables for you to use.
+
+	That's about it, really.  Let me know if you need any help with localization.
+	- Harry Whitfield (g6auc@arrl.net)
+*/
+
+/* ##### Month Names ##### */
+
+"January"					=	"Январь";
+"February"					=	"Февраль";
+"March"						=	"Март";
+"April"						=	"Апрель";
+"May"						=	"Май";
+"June"						=	"Июнь";
+"July"						=	"Июль";
+"August"					=	"Август";
+"September"					=	"Сентябрь";
+"October"					=	"Октябрь";
+"November"					=	"Ноябрь";
+"December"					=	"Декабрь";
+
+
+/* ##### Day Names ##### */
+
+"Sunday"					=	"Воскресенье";
+"Monday"					=	"Понедельник";
+"Tuesday"					=	"Вторник";
+"Wednesday"					=	"Среда";
+"Thursday"					=	"Четверг";
+"Friday"					=	"Пятница";
+"Saturday"					=	"Суббота";
+
+
+/* ##### Month Name Abbreviations ##### */
+
+"Jan"						=	"Янв";
+"Feb"						=	"Фев";
+"Mar"						=	"Мар";
+"Apr"						=	"Апр";
+"May"						=	"Май";
+"Jun"						=	"Июн";
+"Jul"						=	"Июл";
+"Aug"						=	"Авг";
+"Sep"						=	"Сен";
+"Oct"						=	"Окт";
+"Nov"						=	"Ноя";
+"Dec"						=	"Дек";
+
+
+/* ##### Day Name Abbreviations ##### */
+
+"WK"						=	"WK";
+"Mon"						=	"Пон";
+"Tue"						=	"Вто";
+"Wed"						=	"Сре";
+"Thu"						=	"Чтв";
+"Fri"						=	"Пят";
+"Sat"						=	"Суб";
+"Sun"						=	"Вос";
+
+"Wk"						=	"Wk";
+"Mo"						=	"Пн";
+"Tu"						=	"Вт";
+"We"						=	"Ср";
+"Th"						=	"Чт";
+"Fr"						=	"Пт";
+"Sa"						=	"Сб";
+"Su"						=	"Вс";
+
+
+/* ##### Colors ##### */
+
+"black"						=	"black";
+"red"						=	"red";
+"yellow"					=	"yellow";
+"green"						=	"green";
+"cyan"						=	"cyan";
+"blue"						=	"blue";
+"magenta"					=	"magenta";
+"gray"						=	"gray";
+"white"						=	"white";
+
+
+/* ##### Cardinal Numbers ##### */
+
+"zero"						=	"zero";
+"one"						=	"one";
+"two"						=	"two";
+"three"						=	"three";
+"four"						=	"four";
+"five"						=	"five";
+"six"						=	"six";
+"seven"						=	"seven";
+"eight"						=	"eight";
+"nine"						=	"nine";
+"ten"						=	"ten";
+"eleven"					=	"eleven";
+"twelve"					=	"twelve";
+"thirteen"					=	"thirteen";
+"fourteen"					=	"fourteen";
+"fifteen"					=	"fifteen";
+"sixteen"					=	"sixteen";
+"seventeen"					=	"seventeen";
+"eighteen"					=	"eighteen";
+"nineteen"					=	"nineteen";
+"twenty"					=	"twenty";
+"thirty"					=	"thirty";
+"forty"						=	"forty";
+"fifty"						=	"fifty";
+"sixty"						=	"sixty";
+"seventy"					=	"seventy";
+"eighty"					=	"eighty";
+"ninety"					=	"ninety";
+
+
+/* ##### Ordinal Numbers ##### */
+
+"zeroth"					=	"zeroth";
+"first"						=	"first";
+"second"					=	"second";
+"third"						=	"third";
+"fourth"					=	"fourth";
+"fifth"						=	"fifth";
+"sixth"						=	"sixth";
+"seventh"					=	"seventh";
+"eighth"					=	"eighth";
+"ninth"						=	"ninth";
+"tenth"						=	"tenth";
+"eleventh"					=	"eleventh";
+"twelfth"					=	"twelfth";
+"thirteenth"				=	"thirteenth";
+"fourteenth"				=	"fourteenth";
+"fifteenth"					=	"fifteenth";
+"sixteenth"					=	"sixteenth";
+"seventeenth"				=	"seventeenth";
+"eighteenth"				=	"eighteenth";
+"nineteenth"				=	"nineteenth";
+"twentieth"					=	"twentieth";
+"thirtieth"					=	"thirtieth";
+"fortieth"					=	"fortieth";
+"fiftieth"					=	"fiftieth";
+"sixtieth"					=	"sixtieth";
+"seventieth"				=	"seventieth";
+"eightieth"					=	"eightieth";
+"ninetieth"					=	"ninetieth";
+
+
+/* ##### Cardinal Number Modifiers ##### */
+
+"minThousand"				=	"-thousand";
+"minThousandAnd"			=	"-thousand and ";
+"minHundred"				=	"-hundred";
+"minOhMin"					=	"-oh-";
+
+
+/* ##### Dates and Times ##### */
+
+"am"						=	"AM";
+"pm"						=	"PM";
+
+"First"						=	"First";
+"Last"						=	"Last";
+
+"north"						=	"N";
+"south"						=	"S";
+"east"						=	"E";
+"west"						=	"W";
+
+"no"						=	"No";
+"noSunrise"					=	"No sunrise";
+"noSunset"					=	"No sunset ";
+"sunriseAt"					=	" sunrise at ";
+"sunsetAt"					=	" sunset  at ";
+
+"moonDown"					=	"Moon is down all day";
+"moonUp"					=	"Moon is up all day";
+
+"moonSetsAt"				=	"Moon sets  at ";
+"moonRisesAt"				=	"Moon rises at ";
+
+"duration"					=	"This will take about ";
+"seconds"					=	" seconds.";
+
+"memoLocation"				=	"Your memos, copies of iCal(.ics) files, and\ncopies of custom alarm sounds are stored in folder";
+
+"textTooLong"				=	"The text is too long.";
+"noText"					=	"There is no text.";
+
+"calendarManagement"		=	"Calendar Management";
+
+
+/* ##### Dialog Boxes ##### */
+
+"dateSelection"				=	"Date Selection";
+"Select"					=	"Select";
+"dateColon"					=	"Date:";
+"enterDate"					=	"Enter a date in one of the formats: DD, MMDD, YYYYMM or YYYYMMDD";
+
+
+/* ##### Tooltips ##### */
+
+"varyFontSize"				=	"Click to vary the font size.";
+"restoreInitialSize"		=	"Click to restore the calendar's initial size.";
+"setInitialSizePlus"		=	"Click to set initial size +";
+"mainTooltip"				=	"Double-click to create, view, edit or delete a memo.\nAlt+double-click to define a custom background color.\nShift+double-click to set an alarm.";
+
+"previousMonth"				=	"Move to previous month.\nAlt-click to import a local calendar file.\nShift-click to import your Network iCal File.";
+
+"nextMonth"					=	"Move to next month.\nAlt-click to manage your calendar files.";
+"enlargeRestore"			=	"Enlarge (or restore) the size of the window.\n\nAlt-click to speak the memo (or use the speak hotkey).";
+
+"closeMemo"					=	"Close the memo window without saving any changes.";
+"spawn"						=	"Save any changes and close the memo window.";
+
+"wrench"					=	"Delete the text in the window.";
+"back"						=	"Go to the previous day (or previous memo, when displaying search results).";
+"forward"					=	"Go to the next day (or next memo, when displaying search results).";
+"displayBg"					=	"Double-click to dismiss.";
+"useEnterKey"				=   "\n\nYou may also use the Enter key.";
+"useShiftEnterKeys"			=	"\n\nYou may also use the Shift+Enter keys.";
+"locked"					= 	"Window position is locked.";
+"unlocked"					=	"Window position is unlocked.";
+"openToDo"					= 	"Open the To Do List";
+
+"dragTheRing"				= "Drag the ring around to change the date.";
+"openMemo"					= "Open a memo for the displayed date.";
+"resetDate"					= "Reset to today's date.";
+"advanceDate"				= "Advance the date. Alt-click to retard the date.";
+
+/* ##### Alerts ##### */
+
+"invalidLocation"			=	"The location data in the Sunrise/Sunset preference pane is invalid.";
+"notTextOrSound"			=	" is not a text or sound file";
+"invalidZone"				=	"Invalid Time Zone Offset has been ignored.";
+"cannotUpdateMemoFolder"	=	"Cannnot update Memo Folder because ";
+"alreadyExists"				=	" already exists.\nPlease read the manual for further instructions.";
+"relocating"				=	"Month Calendar is about to relocate the folder in which your memos are stored. You may allow or deny this action.";
+
+"Allow"						=	"Allow";
+"Deny"						=	"Deny";
+"uodatingFailed"			=	"Updating of Memo Folder failed.\nPlease read the manual for further instructions.";
+
+"pleaseCloseMemo"			=	"Please close the memo window first.";
+"memo"						=	"Memorandum: ";
+"calFile"					=	"Calendar file ";
+"isMissing"					=	" is missing.";
+"noDates"					=	" contains no dates.";
+"noiCalFiles"				=	"There are no iCal files.";
+"noImport"					=	"Could not import Network iCal file from ";
+"blankiCalPref"				=	"The Network iCal File Preference is blank.";
+
+
+/* ##### Widget Preferences ##### */
+
+"Enable"					=	"Enable";
+"Disable"					=	"Disable";
+"Delete"					=	"Delete";
+
+"Colorized"					=	"Colorized";
+"White"						=	"White";
+"darkGlass"					=	"Dark Glass";
+"colorizedChart"			=	"Colorized Chart";
+"None"						=	"None";
+"none"						=	"none";
+
+"Hidden"					=	"Hidden";
+"Dots"						=	"Dots";
+"ISO8601"					=	"ISO8601";
+"Custom"					=	"Custom";
+"todaysDate"				=	"Move to today's date.";
+"Never"						=	"Never";
+"Always"					=	"Always";
+"whenFocussed"				=	"When focussed";
+"whenContent"				=	"Only when it has content";
+
+"useColorPicker"			=	"Use color picker";
+"colorColon"				=	"Color:";
+"chooseAColor"				=	"Choose a color or use the color picker.";
+"colorDefinition"			=	"Color Definition: ";
+"goOn"						=	"Go On";
+
+"Official"					=	"Official";
+"Civil"						=	"Civil";
+"Nautical"					=	"Nautical";
+"Astronomical"				=	"Astronomical";
+
+"areDisabled"				=	"Are disabled";
+"appearInTooltips"			=	"Appear in tooltips";
+"areHighlighted"			=	"Are highlighted";
+
+"oneSizeLarger"				=	"One Size Larger";
+"twoSizesLarger"			=	"Two Sizes Larger";
+
+"topLeft"					=	"Top Left of Screen";
+"topRight"					=	"Top Right of Screen";
+"bottomLeft"				=	"Bottom Left of Screen";
+"bottomRight"				=	"Bottom Right of Screen";
+"center"					=	"Center of Screen";
+
+"topLeftMemoWindow"			=	"Top Left of Memo Window";
+"topRightMemoWindow"		=	"Top Right of Memo Window";
+"bottomLeftMemoWindow"		=	"Bottom Left of Memo Window";
+"bottomRightMemoWindow"		=	"Bottom Right of Memo Window";
+"centerMemoWindow"			=	"Center of Memo Window";
+
+"localTime"					=	"My Local Time";
+"universalTime"				=	"Universal Time";
+"asIndicated"				=	"As indicated below...";
+
+"On"						=	"On";
+"firdtSunOnAfter"			=	"First Sunday on or after";
+"firstMonOnAfter"			=	"First Monday on or after";
+"firstTueOnAfter"			=	"First Tuesday on or after";
+"firstWedOnAfter"			=	"First Wednesday on or after";
+"firstThuOnAfter"			=	"First Thursday on or after";
+"firstFriOnAfter"			=	"First Friday on or after";
+"firstSatOnAfter"			=	"First Saturday on or after";
+"lastSun"					=	"Last Sunday in";
+"lastMon"					=	"Last Monday in";
+"lastTue"					=	"Last Tuesday in";
+"lastWed"					=	"Last Wednesday in";
+"lastThu"					=	"Last Thursday in";
+"lastFri"					=	"Last Friday in";
+"lastSat"					=	"Last Saturday in";
+	
+"pGbackgroundsTitle" 		= "Backgrounds";
+"pGmarkers1Title"			= "Markers 1";
+"pGmarkers2Title"			= "Markers 2";
+"pGcolors1Title" 			= "Colors 1";
+"pGcolors2Title" 			= "Colors 2";
+
+"pGcalendarTitle" 			= "Calendar";
+"pGcolorsTitle" 			= "Colors";
+
+"pGerrorsTitle" 			= "Errors";
+"pGfontsTitle" 				= "Fonts";
+"pGgeometry1Title" 			= "Geometry 1";
+"pGgeometry2Title" 			= "Geometry 2";
+"pGmemosTitle"				= "Memos";
+"pGnetworkTitle" 			= "Network";
+"pGspeechTitle" 			= "Speech";
+"pGsunriseTitle" 			= "Sunrise/Sunset";
+"pGweeksTitle" 				= "Week Numbers";
+
+"PRstartWeekOnSundayTitle" 	= "Start Week On Sunday";
+"PRstartWeekOnSundayDesc" 	= "Check this box if you would like the week to run from Sunday, rather than from Monday.";
+
+"PRautoModePrefTitle" 		= "Automatic Date Change";
+"PRautoModePrefDesc" 		= "Check this box to have the widget change date automatically.";
+
+"PRautoOpenPrefTitle" 		= "Auto-open Today Memo:";
+"PRautoOpenPrefDesc" 		= "Choose how the memo for the current date is to be automatically opened.";
+"PRautoOpenPrefDval"		= "Never";
+
+/*	PRautoOpenPref.option 	= [bf("Always"), bf("Only when it has content"), bf("Never")]; */
+
+"PRyearPrefTitle" 			= "Year:";
+"PRyearPrefDesc" 			= "Enter a four digit year.";
+
+"PRmonthPrefTitle" 			= "Month:";
+
+/*	PRmonthPref.option 		= gBfMonths; */
+
+"PRmonthPrefDesc" 			= "Choose a month.";
+
+"PRdayPrefTitle" 			= "Day:";
+"PRdayPrefDesc" 			= "Choose a day in the month.";
+
+"PRselectHotkeyPrefTitle" 	= "Date Selection Hotkey:";
+"PRselectHotkeyPrefDesc" 	= "Choose a hotkey to be used to display the date selection dialog.\n\nTo select the Space key, use the Tab menu item.";
+
+"PRsearchHotkeyPrefTitle" 	= "Memo Search Hotkey:";
+"PRsearchHotkeyPrefDesc" 	= "Choose a hotkey to be used to display the memo search dialog.\n\nTo select the Space key, use the Tab menu item.";
+
+"PRbackgroundPrefTitle" 	= "Use Background:";
+
+/*	PRbackgroundPref.option 	= [bf("Colorized"), bf("White"), bf("Dark Glass"), bf("Colorized Chart"),"-", bf("None")]; */
+
+"PRbackgroundPrefDval" 		= "Colorized";
+
+"PRbackgroundPrefDesc"		= "Choose the type of background required.";
+
+"PRbgColorizationTitle" 	= "Background Color:";
+"PRbgColorizationDesc" 		= "Choose the color of the colorized backgrounds.";
+
+"PRtodayMarkerPrefTitle" 	= "Display Today Marker:";
+
+/*	PRtodayMarkerPref.option = ["Always","When focussed","Never"]; */
+
+"PRtodayMarkerPrefDval" 	= "When focussed";
+"PRtodayMarkerPrefDesc" 	= "Choose how the today marker is to be displayed.";
+
+"PRtodayMarkerColorTitle" 	= "Today Marker's Color:";
+"PRtodayMarkerColorDesc" 	= "Choose the color of the today marker.";
+
+/*	PRmemoMarkersPref.option= ["Always","When focussed","Never"]; */
+
+"PRmemoMarkersPrefDval" 	= "When focussed";
+"PRmemoMarkersPrefDesc" 	= "Choose how the memo markers are to be highlighted.";
+
+"PRmemoBgColorTitle" 		= "Memo Marker Background Color:";
+"PRmemoBgColorDesc" 		= "Choose the background color of the memo markers.";
+
+"PRiCalPrefTitle" 			= "iCalendar Events:";
+
+/*	PRiCalPref.option = ["Are disabled", "Appear in tooltips", "Are highlighted"]; */
+
+"PRiCalPrefDesc" 			= "Choose how you wish calendar files to be handled.";
+
+"PRmemoTextBgColorTitle" 	= "Memo Text Background Color:";
+"PRmemoTextBgColorDesc" 	= "Choose the background color of the memo text.";
+
+"PRdisplayBgColorTitle" 	= "Alarm Background Color:";
+"PRdisplayBgColorDesc" 		= "Choose the background colorization of display alarms.";
+
+"PRlogFlagPrefTitle" 		= "Log Error Messages to File";
+"PRlogFlagPrefDesc" 		= "Check this box if you wish errors messages to be written to file.";
+
+"PRlFlagPrefTitle" 			= "lFlag";
+"PRlFlagPrefDesc" 			= "Log important progress and error messages.\nLog runCommand() and appleScript() calls.";
+
+"PReFlagPrefTitle" 			= "eFlag";
+"PReFlagPrefDesc" 			= "Log other progress and error messages.";
+
+"PRsFlagPrefTitle" 			= "sFlag";
+"PRsFlagPrefDesc" 			= "Log applescripts.";
+
+"PRlogFilePrefTitle" 		= "Log File";
+"PRlogFilePrefDesc" 		= "Choose the location and name of the log file.";
+
+"PRgeneralFontPrefTitle" 	= "Text Font:";
+"PRgeneralFontPrefDesc" 	= "Choose a font to be used for the calendar data.";
+
+"PRfontSizePrefTitle" 		= "Font Size:";
+"PRfontSizePrefDesc" 		= "Choose the font size of the calendar font.\n\nThis also controls the width and height of the calendar.";
+
+"PRfontDeltaPrefTitle" 		= "Font Size Variation:";
+
+/*	PRfontDeltaPref.option 	= ["None","One Size Larger","Two Sizes Larger"]; */
+
+"PRmemoFontPrefTitle" 		= "Memo Font:";
+"PRmemoFontPrefDesc" 		= "Choose a font to be used for the memos.";
+
+"PRmemoFontSizePrefTitle" 	= "Memo Font Size:";
+"PRmemoFontSizePrefDesc" 	= "Choose the font size of the memo font.";
+
+"PRdisplayFontPrefTitle" 	= "Alarm Font:";
+"PRdisplayFontPrefDesc" 	= "Choose a font to be used for display alarms.";
+
+"PRdisplayFontSizePrefTitle"= "Alarm Font Size:";
+"PRdisplayFontSizePrefDesc" = "Choose the font size of the alarm font.";
+
+"PRmonthTextColorTitle" 	= "Month Heading Color:";
+"PRmonthTextColorDesc" 		= "Choose the color of the month heading.";
+
+"PRtextColorTitle" 			= "Text Color:";
+"PRtextColorDesc" 			= "Choose the color of the text.";
+
+"PRsatTextColorTitle" 		= "Saturday Text Color:";
+"PRsatTextColorDesc" 		= "Choose the color of the text to be used for Saturdays.";
+
+"PRsunTextColorTitle" 		= "Sunday Text Color:";
+"PRsunTextColorDesc" 		= "Choose the color of the text to be used for Sundays.";
+
+"PRweekColorTitle" 			= "Week Numbers' Color:";
+"PRweekColorDesc" 			= "Choose the color of the week numbers.";
+
+"PRtodayColorTitle" 		= "Today's Text Color:";
+
+"PRtodayColorDesc" 			= "Choose the color of the text of the today marker.";
+
+"PRmemoColorTitle" 			= "Memo Marker Text Color:";
+"PRmemoColorDesc" 			= "Choose the color of the text of the memo markers.";
+
+"PRmemoTextColorTitle" 		= "Memo Text Color:";
+"PRmemoTextColorDesc" 		= "Choose the color of the memo text.";
+
+"PRframeColorTitle" 		= "Memo Frame Color:";
+"PRframeColorDesc" 			= "Choose the color of the memo's frame.";
+
+"PRdisplayTextColorTitle" 	= "Alarm Text Color:";
+"PRdisplayTextColorDesc" 	= "Choose the color of the text of display alarms.";
+
+"PRoversizePrefTitle" 		= "Allow Oversize Settings";
+"PRoversizePrefDesc" 		= "Check the box to allow settings to exceed the width and height of the available screen.";
+
+"PRwidthPrefTitle" 			= "Memo Window Width:";
+"PRwidthPrefDesc" 			= "Set the preferred width of the memo window (in pixels).\n\nYou may leave either or both of the Memo Window Width and Memo Window Height preferences blank.";
+
+"PRheightPrefTitle" 		= "Memo Window Height:";
+"PRheightPrefDesc" 			= "Set the preferred height of the memo window (in pixels).";
+
+"PRmaxWidthPrefTitle" 		= "Maximum Width:";
+"PRmaxWidthPrefDesc" 		= "Set the maximum width of the memo window (in pixels).\n\nYou may leave either or both of the Maximum Width and Maximum Height preferences blank.";
+
+"PRmaxHeightPrefTitle" 		= "Maximum Height:";
+"PRmaxHeightPrefDesc" 		= "Set the maximum height of the memo window (in pixels).";
+
+"PRrotationPrefTitle" 		= "Rotation:";
+
+"PRrotationPrefDesc" 		= "Set the angle of rotation of the memo window (-359..359 degrees).";
+
+"PRframePrefTitle" 			= "Suppress Frame";
+"PRframePrefDesc" 			= "Check the box to suppress the frame.";
+
+"PRaspectRatioPrefTitle" 	= "Fixed Aspect Ratio";
+"PRaspectRatioPrefDesc" 	= "Check the box to force a 4:3 aspect ratio.";
+
+"PRmemoScalePrefTitle" 		= "Memo Magnification Factor:";
+"PRmemoScalePrefDesc" 		= "Choose the magnification factor for the memo window.";
+
+"PRanchorPrefTitle" 		= "Anchor Point:";
+
+/*
+"PRanchorPref.option=
+["None","Top Left of Screen","Top Right of Screen","Bottom Left of Screen","Bottom Right of Screen","Center of Screen",
+ "Top Left of Memo Window","Top Right of Memo Window","Bottom Left of Memo Window","Bottom Right of Memo Window","Center of Memo Window"];
+ */
+ 
+"PRanchorPrefDval" 			= "None";
+"PRanchorPrefDesc" 			= "Select where the memo window should be anchored.";
+
+"PRanchorXPrefTitle" 		= "AnchorX:";
+
+"PRanchorYPrefTitle" 		= "AnchorY:";
+
+
+"PRnetworkCalFileTitle" 	= "Network iCal File:";
+"PRnetworkCalFileDesc" 		= "If required, enter the URL of a remote iCal file.";
+
+"PRspeechHotkeyPrefTitle" 	= "Speak Memo Hotkey:";
+"PRspeechHotkeyPrefDesc" 	= "Choose a hotkey to be used to speak the current memo.\n\nTo select the Space key, use the Tab menu item.";
+
+"PRmaxSpeechTimeTitle" 		= "Maximum Speech Time:";
+"PRmaxSpeechTimeDesc" 		= "Choose the maximum time for continuous speech (in seconds).";
+
+"PRspeakDatesPrefTitle" 	= "Speak Memo Dates";
+"PRspeakDatesPrefDesc" 		= "Check this box if you wish the date to be announced when a memo is opened.";
+
+"PRzenithPrefTitle" 		= "Sunrise/Sunset Type:";
+
+/*	PRzenithPref.option 	= ["Official","-","Civil","Nautical","Astronomical"]; */
+
+"PRzenithPrefDesc" 			= "Choose the type of sunrise/sunset calculation.";
+
+"PRlatitudePrefTitle"		= "Latitude:";
+"PRlatitudePrefDesc" 		= "Enter a latitude (dd mm ss.ssss N/S) in this box.";
+
+"PRlongitudePrefTitle" 		= "Longitude:";
+"PRlongitudePrefDesc" 		= "Enter a longitude (ddd mm ss.ssss E/W) in this box.";
+
+"PRaltitudePrefTitle"	 	= "Altitude:";
+"PRaltitudePrefDesc" 		= "Enter the altitude to be used in the calculation.";
+
+"PRaltitudeUnitsPrefTitle" 	= "Units:";
+
+/*	PRaltitudeUnitsPref.option = ["feet","metres"]; */
+
+"PRaltitudeUnitsPrefDval" 	= "metres";
+"PRaltitudeUnitsPrefDesc" 	= "Choose the units to be used for the altitude.";
+
+"PRtimeZonePrefTitle" 		= "Time Zone:";
+
+/*	PRtimeZonePref.option = ["My Local Time","Universal Time","-","As indicated below..."]; */
+
+"PRtimeZonePrefDval" 		= "My Local Time";
+"PRtimeZonePrefDesc" 		= "Choose the timezone to be used for the display of sunrise and sunset times.";
+
+"PRtimeZoneOffsetTitle" 	= "Time Zone Offset:";
+"PRtimeZoneOffsetDesc" 		= "Enter the number of hours that the time zone differs from UTC(GMT). Zones west of Greenwich take negative values. Offsets should be expressed in hours, with a decimal part, if need be.";
+
+"PRhour12PrefTitle" 		= "Use 12-Hour Clock";
+"PRhour12PrefDesc" 			= "Check this box if you would like rise and set times to be shown in 12-hour format.";
+
+"PRweekNumberPrefTitle" 	= "Type:";
+
+/*	PRweekNumberPref.option = ["ISO8601","Custom","-","Dots","Hidden"]; */
+
+"PRweekNumberPrefDval" 		= "ISO8601";
+"PRweekNumberPrefDesc" 		= "Choose the type of week numbers required.\n\nIf custom week numbers are required, make appropriate choices below.\n\nChoose the day and month on which week 01 of the year is to start.";
+
+"PRweekDayPrefTitle" 		= "";
+
+/*
+"PRweekDayPref.option = ["On","First Sunday on or after","First Monday on or after","First Tuesday on or after","First Wednesday on or after",
+"First Thursday on or after","First Friday on or after","First Saturday on or after","Last Sunday in","Last Monday in","Last Tuesday in",
+"Last Wednesday in","Last Thursday in","Last Friday in","Last Saturday in"];
+*/
+
+"PRweekDayPrefDval" 		= "On";
+
+"PRstartMonthPrefTitle" 	= "";
+
+/*	PRstartMonthPref.option = gBfMonths; */
+
+"PRstartMonthPrefDval"		= "January";
+	
+"PRcalFileListTitle" 		= "Selected Calendar Files:";
+
+"PRcalFileListDesc" 		= "List of selected calendar files.";
+
+
+"PRlicenseHideTitle" 		= "Don't Show License Again";
+
+"PRlicenseHideDesc"			= "Check this box if you don't want to see the License Conditions again.";
+
+
+/* New defs follow */
+
+"PRaccessModePrefTitle"		= "File Access Mode:";
+"PRaccessModePrefDesc"		= "Choose the access mode for files stored in the Memo Folder.";
+
+"PRalarmMarkerPrefTitle"	= "Set Memo Markers For Alarms";
+"PRalarmMarkerPrefDesc"		= "Set memo markers when setting alarms.";
+
+"PRallowAutoOpenPrefTitle"	= "Auto-open Today Memo";
+"PRallowAutoOpenPrefDesc"	= "Check this box to allow auto-opening of the Today Memo in Shared Memo mode.";
+
+"PRdisplayMemoCountPrefTitle" = "Memo Lines In Tooltips:";
+"PRdisplayMemoCountPrefDesc" = "Choose the number of lines of a memo that are to be displayed in tooltips.";
+
+"PRdockColorizationTitle"	= "Dock Background Color:";
+"PRdockColorizationDesc"	= "Choose the background color of the dock calendar.";
+
+"PRdockTextColorTitle" 		= "Dock Text Color:";
+"PRdockTextColorDesc"		= "Choose the color of the text of the dock calendar.";
+
+"PReFlagPrefTitle"			= "eFlag";
+"PReFlagPrefDesc"			= "Log other progress and error messages.";
+
+"PRfirstDowColorTitle"		= "First Day of Week Heading Color:";
+"PRfirstDowColorDesc"		= "Choose the color of the heading for the days which are first days of each week.";
+
+"PRfirstSpecialPrefTitle"	= "First";
+"PRsecondSpecialPrefTitle"	= "Second";
+"PRthirdSpecialPrefTitle"	= "Third";
+"PRfourthSpecialPrefTitle"	= "Fourth";
+"PRfifthSpecialPrefTitle"	= "Fifth";
+"PRfifthSpecialPrefDesc"	= "Choose the occasions in the month when the special markers are to be highlighted.";
+
+"PRiCalDatePrefTitle"		= "iCal Time Format:";
+"PRiCalDatePrefDesc"		= "Choose the way iCal event times are to be displayed in tooltips.";
+"PRiCalDatePrefDval"		= "hh:mm:ss[ GMT]";
+
+/*	PRiCalDatePref.option	= ["hh:mm:ss[ GMT]", "hh:mm[ GMT]", "-", "none"]; */
+
+"PRimageFolderPrefTitle"	= "Image Folder";
+"PRimageFolderPrefDesc"		= "Choose a folder for the image files.";
+
+"PRmainAnchorXPrefTitle"	= "Main AnchorX:";
+
+"PRmainAnchorYPrefTitle"	= "Main AnchorY:";
+
+
+"PRmainTooltipPrefTitle"	= "Suppress Default Tooltip";
+"PRmainTooltipPrefDesc"		= "Check this box if you do not wish to see the default tooltip for each day.";
+
+"PRmemoBgOpacityTitle"		= "Memo Marker Background Opacity:";
+
+/*	PRmemoBgOpacity.tickLabel = ["low", "medium", "high"]	*/
+
+"PRmemoFolderPrefTitle"		= "Use Widget Data Folder";
+"PRmemoFolderPrefDesc"		= "Check this box to have your memos stored in the Widget's Data Folder (not recommended), rather than in the User's Document Folder (the default).";
+
+"PRmonthArrowsPrefTitle"	= "Display Month Arrows:";
+"PRmonthArrowsPrefDesc"		= "Choose how the previous and next month arrows are to be displayed.";
+"PRmonthArrowsPrefDval"		= "When focussed";
+
+/*	PRmonthArrowsPref.option = ["Always", "When focussed"];	*/
+
+"PRnextAlarmPrefTitle"		= "Next Alarm:";
+
+"PRnextAlarmPrefDesc"		= "Restart date:time:seq for alarms.";
+
+"PRrealFontSizePrefTitle"	= "Reduced Font Size:";
+"PRrealFontSizePrefDesc"	= "This popup can be used to make the size of the calendar font smaller than that set above. Larger values are ignored.";
+
+"PRsecTooltipPrefTitle"		= "Suppress Other Tooltips";
+"PRsecTooltipPrefDesc"		= "Check this box if you do not wish to see other default tooltips.";
+
+"PRsharedDirectoryPrefTitle" = "Shared Memo Folder";
+"PRsharedDirectoryPrefDesc"	= "Choose the Shared Memo Folder.";
+
+"PRsharedMemoFolderPrefTitle" = "Use A Shared Memo Folder";
+"PRsharedMemoFolderPrefDesc" = "Check this box to have your memos stored in a shared folder rather than in the Widget's Data Folder or the User's Document Folder. Select the shared folder below.";
+
+"PRsharedModePrefTitle"		= "Shared Access Mode:";
+"PRsharedModePrefDesc"		= "Choose the access mode for files stored in the Shared Memo Folder.";
+
+"PRsharedUpdateTimerPrefTitel" = "Update Interval:";
+"PRsharedUpdateTimerPrefDesc" = "Choose the shared update timer interval (in minutes).";
+
+"PRspecialBgColorTitle"		= "Special Marker Background Color";
+"PRspecialBgColorDesc"		= "Choose the background color of the special markers.";
+
+"PRspecialDayPrefTitle"		= "Day:";
+"PRspecialDayPrefDesc"		= "Choose the day of the week when the special markers are to be highlighted.";
+
+/*	PRspecialDayPref.option = ["Monday", ... "Sunday"];	*/
+
+"PRtodayMarkerHeightTitle"	= "Height:";
+"PRtodayMarkerWidthTitle"	= "Width:";
+"PRtodayMarkerHOffsetTitle"	= "Horizontal Offset:";
+"PRtodayMarkerVOffsetTitle"	= "Vertical Offset:";
+
+"PRtodayMarkerOpacityTitle"	= "Opacity:";
+
+"PRwindowLockTitle"			= "Show Window Lock Icon";
+"PRwindowLockDesc"			= "Check the box to show the window lock icon.";
+
+"PRwindowTimerTitle"		= "Lock Calendar Window";
+"PRwindowTimerDesc"			= "Check the box to lock the position of the calendar window.";
+
+/* ##### Timekeeper ##### */
+
+"PRscaleTitle"				= "Scale:";
+"PRscaleDesc"				= "Choose the size of the calendar.";
+
+"PRadvanceTitle"			= "Advance:";
+"PRadvanceDesc"				= "Enter an integer to set the advance increment (in days).";
+
+"PRdockDatePrefTitle"		= "Dock Date:";
+"TodaysDate"				= "Today's Date";
+"PRdockDatePrefDesc"		= "Choose how the date is to be displayed in the dock.";
+"CalendarDate"				= "Calendar Date";
+
+/* ##### Alarm Forms ##### */
+
+"FMsoundTitle"				= "Sound:";
+"FMsoundDesc"				= "Choose the alarm sound.";
+
+"FMdeleteSoundTitle"		= "Delete Sound";
+"FMdeleteSoundDesc"			= "Check this box to delete the selected sound.\n\nNote that the default sound (G6AUC.wav) cannot be deleted.";
+
+"FMalarmDefnTitle"			= "Alarm Definition: ";
+"FMset"						= "Set";
+
+"FMline"					= "Line ";
+
+"FMmailNameTitle"			= "Full Name:";
+"FMmailNameDesc"			= "Enter the full name of the recipient.";
+
+"FMmailToTitle"				= "To:";
+"FMmailToDesc"				= "Enter the destination email address.";
+
+"FMmailSubjectTitle"		= "Subject:";
+"FMmailSubjectDesc"			= "Enter the subject of the message.";
+
+"FMmailSignatureTitle"		= "Signature:";
+"FMmailSignatureDesc"		= "Select a Mail signature.";
+
+"FMmailSenderTitle"			= "Sender:";
+"FMmailSenderDesc"			= "Optionally, enter the sender name<address>.";
+
+"FMmailAttachmentTitle"		= "Attachment";
+"FMmailAttachmentDesc"		= "Optionally, choose a file to attach to the message.";
+
+"FMmailMessageTitle"		= "Message:";
+"FMmailMessageDesc"			= "Enter the message.";
+
+"FMfileSelectTitle"			= "Select File";
+"FMfileSelectDesc"			= "Select the file to be opened.";
+
+"FMapplSelectTitle"			= "Select Application";
+"FMapplSelectDesc"			= "Select the application to be used to open the file.";
+
+"FMapplParamsTitle"			= "Parameters:";
+"FMapplParamsDesc"			= "Enter any parameters to be used.";
+
+"FMfolderSelectTitle"		= "Select Folder";
+"FMfolderSelectDesc"		= "Select the folder to be opened.";
+
+"FMurlTitle"				= "URL:";
+"FMurlDesc"					= "Enter the url to be opened.";
+
+"FMtextTitle"				= "Enter the text to be displayed.";
+"FMtextDesc"				= "Enter the text of the memo.";
+
+"FMfiles"					= "files";
+"FMfolders"					= "folders";
+
+"FMpastDates"				= "Cannot set alarms for past dates.";
+"FMpastTimes"				= "Cannot set alarms for past times.";
+
+"FMinvalidEvery"			= "Invalid every clause.";
+
+"FMsave"					= "Save";
+"FMcancel"					= "Cancel";
+
+"FMmustClose"				= "Month Calendar must close the memo window to set an alarm for you. You may save the memo contents, or cancel your changes.";
+
+"FMrepeatMessageDesc"		= "Choose the maximum number of times that the alarm is to be repeated.";
+
+"FMeveryMessageDesc"		= "Choose the interval at which the alarm is to be repeated.";
+
+"FMalarmTimeTitle"			= "Alarm Time:";
+"FMalarmTimeDesc"			= "Enter the alarm time in the format: HH:MM:SS or HH:MM";
+
+"FMrepeatTitle"				= "Repeat:";
+"FMeveryTitle"				= "Every:";
+"FMaudioTitle"				= "Audio";
+"FMdisplayTitle"			= "Display";
+"FMemailTitle"				= "Email";
+"FMopenFileTitle"			= "Open File";
+"FMopenFolderTitle"			= "Open Folder";
+"FMopenUrlTitle"			= "Open URL";
+"FMmemoAndDisplayTitle"		= "Memo and Display";
+"FMmemoAndDisplayDesc"		= "Choose the type of alarm required.";
+
+"FMgoOn"					= "Go On";
+
+"FM0times"					= "0 times";
+"FM1times"					= "1 time";
+"FM2times"					= "2 times";
+"FM3times"					= "3 times";
+"FM4times"					= "4 times";
+"FM5times"					= "5 times";
+"FM6times"					= "6 times";
+"FM7times"					= "7 times";
+"FM8times"					= "8 times";
+"FM9times"					= "9 times";
+					 
+"FM1minutes"				= "minute";
+"FM2minutes"				= "two minutes";
+"FM5minutes"				= "five minutes";
+"FM10minutes"				= "ten minutes";
+"FM15minutes"				= "fifteen minutes";
+"FM30minutes"				= "thirty minutes";
+"FM1hours"					= "hour";
+"FM2hours"					= "two hours";
+"FM4hours"					= "four hours";
+"FM8hours"					= "eight hours";
+"FM12hours"					= "twelve hours";
+"FMhyphen"					= "-";
+"FM1days"					= "day";
+"FM2days"					= "two-days";
+"FM3days"					= "three-days";
+"FM4days"					= "four-days";
+"FM5days"					= "five-days";
+"FM6days"					= "six-days";
+"FM1weeks"					= "week";
+"FM2weeks"					= "two-weeks";
+"FM3weeks"					= "three-weeks";
+"FM4weeks"					= "four-weeks";
+"FM1months"					= "month";
+"FM2months"					= "two-months";
+"FM3months"					= "three-months";
+"FM6months"					= "six-months";
+"FMyear"					= "year";
+
+"CMbackup"					= "Backup Memos...";
+"CMopenMemos"				= "Open Memos Folder";
+"CMloadPrefs"				= "Load Preferences...";
+"CMsavePrefs"				= "Save Preferences...";
+"CMsaveCalImage"			= "Save Calendar Image";
+"CMstartTo_iCal"			= "Start To_iCal Widget";
+"CMopenHelp"				= "Open Help File";
+"CMopenSharedMemosHelp"		= "Open Shared Memos Help File";
+"CMdisplayLicense"			= "Display License Agreement";
+
+"PRupperCaseTitle"			= "Use Upper Case Letters";
+"PRupperCaseDesc"			= "Use upper case letters where possible. Takes effect at Widget restart.";
+
+"SPopenTodoSpeak"			= "Opening The To-Do List";
+"memeToDoTitle"				= "To Do List";
+
+"PRspeakEnglishDatesTitle"	= "Speak Dates in English";
+"PRspeakEnglishDatesDesc"	= "Check this box if you wish spoken memo dates to be in Engish.";
+
+"cannotOpenMemo"			= "Cannot open memo for ";
+"cannotAccessMemo"			= "Cannot access memo for ";
+"pleaseTryAgain"			= ". Please try again later.";
+
+"chooseImageFolder"			= "Please choose an Image Folder in the Error preferences pane, then try again.";
+
+"updateCalFwd"				= "updateCalendar forward";
+"calFwd"					= "calendar forward";
+"savedPrefFile"				= "Saved preferences file for ";
+"asColon"					= " as: ";
+"couldNotSavePrefFile"		= "Could not save preferences file for ";
+"overwriteCaution"			= "CAUTION: You are about to overwrite the Widget's preferences.";
+"Proceed"					= "Proceed";
+"Cancel"					= "Cancel";
+"couldNotLoadPrefFile"		= "Could not load preferences file: ";
+"for"						= " for ";
+
+"specialDay"				= "Special Day";
+"noAssignedFunction"            = "no assigned function";
+"bringsUpTheAboutBox"            = "Brings up the About box";
+"openHelpPageForThisWidget"     = "Open help page for this widget";
+"MovesTheClockAndCogs"          = "Moves the clock and cogs further from the middle";
+"HideTheClockByClickingHere"    = "Hide the orrery by clicking here";
+"MovesAllTheWindingGear"        = "Moves all the winding gear out from the centre";
+"ThisScrewCausesTheCalendarToReset" = "This screw causes the calendar to reset";
+"ThisTogglesTheSound"           = "This toggles the sound on/off";
+"ThisShowsThePreferences"       = "This shows the preferences";
+"ClickHereToCauseWheelsAndCogs" = "Click here to cause wheels and cogs to move in time to the clock";
+"ClickOnTheOuterRingToMoveOrDrag" = "Click on the outer ring to reduce the globe";
+"SingleClickToStopMeSpinning"     = "Single click to stop me spinning";
+"ClickHereToCauseWheelsAndCogsToMove" ="Click the centre to cause wheels and cogs to move in time to the ticking of the clock";
+"ClickToOpenMemo"     = "Click to open memo";

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<name>timekeeper</name>
+	<version>5.2.6</version>
+	<identifier>206e6180-6876-11e1-a5ea-0016cb8c2df4</identifier>
+	<image usage="dock" src="Resources/dock.png"/>
+	<image usage="security" src="Resources/security.png"/>
+	<author name="Dean Beedell and Harry Whitfield"/>
+	<copyright>(c) 2012-2014 Dean Beedell and Harry Whitfield</copyright>
+	<description>A Steampunk Clock and Calendar</description>
+	<platform minVersion = "4.5" />
+	<security>
+          <filesystem>full</filesystem>
+          <http>all</http>
+          <applescript>true</applescript>
+          <command>true</command>
+          <hotkey>true</hotkey>
+	</security>
+</metadata>

@@ -6,7 +6,7 @@ The Steampunk Calendar Orrery Yahoo Widget, written in Javascript
 and XML for the Yahoo Widget (Konfabulator) Engine. Created for XP, Vista, Win7, 
 8, 10+ as well as  Apple Mac Sierra.
 
-![panzerWeather650](https://github.com/yereverluvinunclebert/Panzer-Weather-Widget/assets/2788342/84cd3ab3-bdd3-4ea2-9889-f40f1e276894)
+
 
 This Steampunk Calendar Orrery Yahoo Widget is an attractive steampunk 
 Yahoo widget for your desktop. Think of it as a piece of Space 1899 high tech. 
@@ -17,7 +17,7 @@ space farers might use in their quest for conquest of Mars.
 In reality it is one my Steampunk widgets. You can select a date and enter a 
 memorandum for that date, it is fully configurable. An elegant widget - give it 
 a go. There is a brand new version under development now and you can see that 
-being built here on DeviantArt: yereverluvinuncleber.deviantar…
+being built here on DeviantArt: yereverluvinuncleber.deviantarâ€¦
 
 It is more than just starting to do something now. The widget now fully controls 
 a calendar, the calendar wheel rotates, the day under the display indicates the 
@@ -38,9 +38,7 @@ the original here:
 
 	www.iantregillis.com/
 
-![weather-icon-01](https://github.com/yereverluvinunclebert/Panzer-Weather-Widget/assets/2788342/13c71691-9e1f-44a6-a463-6d9cf49d16d1)
 
-![background](https://github.com/yereverluvinunclebert/Panzer-Weather-Widget/assets/2788342/3b3da7cb-84d0-4e8f-96cc-218e80aab092)
  
 These Widgets are moveable widgets that you can move anywhere around the 
 desktop as you require.The widgets can be resized - Hover the cursor over the 
@@ -52,7 +50,7 @@ the Yahoo Widget Konfabulator engine. The engine interprets the javascript and
 creates the widget according to the XML description and using the images you 
 provide. 
 
-![panzer-temperature-icon](https://github.com/yereverluvinunclebert/Panzer-Weather-Widget/assets/2788342/9fb6faad-bf1a-42e9-bc64-3853e9ab42df)
+
 
 Built using: 
 
@@ -83,7 +81,7 @@ Running the widget using a javascript engine frees javascript from running only
 within the captivity of a browser, you will now be able to run these widgets on 
 your Windows desktop as long as you have the correct widget engine installed.
 
-![panzer-clipboard-help](https://github.com/yereverluvinunclebert/Panzer-Weather-Widget/assets/2788342/d60f0956-532f-45e1-9506-82594eb27b83)
+
  
 Instructions for running Yahoo widgets on Windows
 =================================================
@@ -116,7 +114,7 @@ Wit these instructions you should be able to start Yahoo! Widgets and the
 menubar item should appear. Widgets can then be started from the menubar or by 
 double-clicking on the KON file in the usual way.
 
-![about](https://github.com/yereverluvinunclebert/Panzer-Weather-Widget/assets/2788342/0fc1e325-7a67-4eac-bc8f-fb6257086882)
+
 
 LICENCE AGREEMENTS:
 

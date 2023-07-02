@@ -22,6 +22,8 @@ memorandum for that date, it is fully configurable. An elegant widget - give it
 a go. There is a brand new version under development now and you can see that 
 being built here on DeviantArt: yereverluvinuncleber.deviantar…
 
+![prt_220x203_1407258669](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/392875c8-8665-4eb1-be53-f74d0e69ef91)
+
 It is more than just starting to do something now. The widget now fully controls 
 a calendar, the calendar wheel rotates, the day under the display indicates the 
 date selected. If a memorandum exists for that day then it can be configured to 
@@ -49,11 +51,14 @@ desktop as you require.The widgets can be resized - Hover the cursor over the
 widget. Press the CTRL key and use your mousewheel up or down. The widget will 
 resize dynamically.
 
+![steampunk-calendar3](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/61851e66-22dd-47dd-b7bb-3047f8b4185e)
+
 All javascript widgets need an engine to function, in this case the widget uses 
 the Yahoo Widget Konfabulator engine. The engine interprets the javascript and 
 creates the widget according to the XML description and using the images you 
 provide. 
 
+![orrer-widget-inline-help](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/43b6b380-2d9a-475f-b9b3-03500f57f3ff)
 
 
 Built using: 
@@ -85,6 +90,7 @@ Running the widget using a javascript engine frees javascript from running only
 within the captivity of a browser, you will now be able to run these widgets on 
 your Windows desktop as long as you have the correct widget engine installed.
 
+![moon-widget-popup](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/81f9735a-0120-4c04-83a5-9393b7037c9b)
 
  
 Instructions for running Yahoo widgets on Windows
@@ -131,3 +137,6 @@ permission. In all other non-commercial cases I require a credit to the
 original artist using my name or one of my pseudonyms and a link to my site.
 With regard to the commercial use of incorporated images, permission and a
 licence would need to be obtained from the original owner and creator, ie. me.
+
+![linux-plasmoid-desktop-600](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/d95a89bb-4fe5-4c00-a582-66cc8a4699b2)
+

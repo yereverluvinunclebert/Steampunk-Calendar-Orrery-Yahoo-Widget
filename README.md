@@ -44,6 +44,9 @@ version will add functionality and will run on your Mac or Windows desktop. See
 the original here: 
 
 	www.iantregillis.com/
+ 
+Here is a Youtube video of the Yahoo Weather widget shown in all its steampunk functionality, I think you'll find it is fascinating as well as useful. I do hope so.
+https://www.youtube.com/watch?v=1qEoStgNmfg&t=2s
 
 
 These Widgets are moveable widgets that you can move anywhere around the 

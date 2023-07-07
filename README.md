@@ -46,9 +46,34 @@ the original here:
 
 	www.iantregillis.com/
  
-Here is a Youtube video of the Yahoo Weather widget shown in all its steampunk functionality, I think you'll find it is fascinating as well as useful. I do hope so.
+Here is a Youtube video of the Yahoo Weather widget shown in all its steampunk 
+functionality, I think you'll find it is fascinating as well as useful. I do hope so.
 https://www.youtube.com/watch?v=1qEoStgNmfg&t=2s
 
+It provides a daily memorandum function via a truly steampunk interface. Select 
+a date via the calendar ring and click the date shown and it will allow you to 
+enter a memo or reminder. You can use the ring to select future or past memos 
+and whilst you are doing so the orrery will allow you to reflect on the passage 
+of time and the true nature of this force that controls our lives. Well, you might...
+
+The calendar ring rotates by mouse control, the date displays according to ring 
+position. The inner earth and moon rotate, the moon around the earth. The earth 
+rotates around the central glow, roughly following the track of the window 
+circular frame. The inner wheel with lots of bolts, counter-rotates as the main 
+calendar ring rotates. Clicking on the moon causes the moon to expand so that 
+you can see the phases of the moon according to any date you choose. Clicking on 
+the earth causes the earth to enlarge shoing you an image of the rotating earth. 
+The widget is fully resizable for your desktop. Please let me know what you think 
+of the new version of my orrery/calendar. If you like it, then feel free to leave 
+a comment.
+
+The original Yahoo widget orrery for Windows/Macs has lots of functionality all 
+of it written in javascript - The second version was adapted to run on xwidgets 
+on windows. Next was the rainmeter version - the first of our steampunk widgets 
+to be adapted to a rainmeter widget also running on Windows. The third is the 
+Linux KDE plasmoid here adapted for Linux/KDE using QML. Each version is slightly 
+different adding/modifying functionality. The latest version, this one provides 
+a lot more and you simply have to give it a go. 
 
 These Widgets are moveable widgets that you can move anywhere around the 
 desktop as you require.The widgets can be resized - Hover the cursor over the 

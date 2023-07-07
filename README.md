@@ -35,7 +35,7 @@ roughly follows the track of the window circular frame. The inner wheel with
 lots of bolts counter-rotates as the main calendar ring rotates. The widget is 
 fully resizable. The right and left hand cogs now rotate.
 
-![orrery-desktop](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/17aebd32-63c4-4fe1-bdaf-ff32a3876426)
+![orrery-desktop](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/efd22da2-ce2e-4467-9d4c-399704880f86)
 
 It was based upon a superb blog navigation device on Ian Tregillis site created 
 by Richard Mueller of 3232 design. His superb bit of Adobe Flash was really 
@@ -55,15 +55,14 @@ desktop as you require.The widgets can be resized - Hover the cursor over the
 widget. Press the CTRL key and use your mousewheel up or down. The widget will 
 resize dynamically.
 
-![steampunk-calendar3](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/61851e66-22dd-47dd-b7bb-3047f8b4185e)
+![steampunk-calendar3](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/a861ed60-c092-406d-98e3-42631228ea19)
 
 All javascript widgets need an engine to function, in this case the widget uses 
 the Yahoo Widget Konfabulator engine. The engine interprets the javascript and 
 creates the widget according to the XML description and using the images you 
 provide. 
 
-![orrer-widget-inline-help](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/43b6b380-2d9a-475f-b9b3-03500f57f3ff)
-
+![orrer-widget-inline-help](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/2577b24f-61a6-43c6-a67b-07e443ed54f8)
 
 Built using: 
 
@@ -94,7 +93,7 @@ Running the widget using a javascript engine frees javascript from running only
 within the captivity of a browser, you will now be able to run these widgets on 
 your Windows desktop as long as you have the correct widget engine installed.
 
-![moon-widget-popup](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/81f9735a-0120-4c04-83a5-9393b7037c9b)
+![moon-widget-popup](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/736af20f-64a5-4443-8d34-62000b4375eb)
 
  
 Instructions for running Yahoo widgets on Windows
@@ -128,7 +127,7 @@ Wit these instructions you should be able to start Yahoo! Widgets and the
 menubar item should appear. Widgets can then be started from the menubar or by 
 double-clicking on the KON file in the usual way.
 
-![orrery-background](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/3c864ebc-f779-4c30-8851-7e02e3dfe420)
+![orrery-background](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/5d37f19f-e995-4ced-a9d2-6358526c7e51)
 
 
 LICENCE AGREEMENTS:
@@ -142,5 +141,6 @@ original artist using my name or one of my pseudonyms and a link to my site.
 With regard to the commercial use of incorporated images, permission and a
 licence would need to be obtained from the original owner and creator, ie. me.
 
-![linux-plasmoid-desktop-600](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/d95a89bb-4fe5-4c00-a582-66cc8a4699b2)
+![linux-plasmoid-desktop-600](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/3dee134d-f2a9-48b8-8a22-793711734f0c)
+
 

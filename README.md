@@ -6,7 +6,8 @@ The Steampunk Calendar Orrery Yahoo Widget, written in Javascript
 and XML for the Yahoo Widget (Konfabulator) Engine. Created for XP, Vista, Win7, 
 8, 10+ as well as  Apple Mac Sierra.
 
-![orrery0001](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/6ab67c12-a8ea-4616-8bae-dd8c99d8889d)
+![orrery0001](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/da564a8d-b28f-4411-bdbe-8b7b0c9e91ef)
+
 
 This Steampunk Calendar Orrery Yahoo Widget is an attractive steampunk 
 Yahoo widget for your desktop. Think of it as a piece of Space 1899 high tech. 

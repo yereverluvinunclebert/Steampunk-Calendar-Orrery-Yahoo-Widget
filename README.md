@@ -15,15 +15,15 @@ Yahoo widget for your desktop. Think of it as a piece of Space 1899 high tech.
 their revenge? This is a piece of the Victorian space technology that human 
 space farers might use in their quest for conquest of Mars.
 
-![avatar-orrerymkII-300](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/3c37d026-4b6a-48f5-91c1-12691135726e)
-
+![avatar-orrerymkII-300](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/da616732-253f-4010-b6b0-03fd4e8ff18d)
 
 In reality it is one my Steampunk widgets. You can select a date and enter a 
 memorandum for that date, it is fully configurable. An elegant widget - give it 
 a go. There is a brand new version under development now and you can see that 
 being built here on DeviantArt: yereverluvinuncleber.deviantar…
 
-![prt_220x203_1407258669](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/392875c8-8665-4eb1-be53-f74d0e69ef91)
+![prt_220x203_1407258669](https://github.com/yereverluvinunclebert/Steampunk-Calendar-Orrery-Yahoo-Widget/assets/2788342/93df87b3-9925-4f9e-9159-1973f77b8ed7)
+
 
 It is more than just starting to do something now. The widget now fully controls 
 a calendar, the calendar wheel rotates, the day under the display indicates the 

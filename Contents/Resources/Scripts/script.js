@@ -689,30 +689,34 @@ var innerFrames,
 //================================
 //underwidget & controls
 //================================   130    140
-        zorderModifier = 00;   // for debugging purposes so that you can see the underwidget
-//	newImage(parent, hOffset, vOffset, width, height, src, zOrder, opacity, hRegP, vRegP)
-	udarkness = newImage(main_window, 146, 150, 296,296, underwidgetBase + "/darkness.png", zorderModifier, 255);
-	ubackgroundCog = newImage(main_window, 216, 350, 102,105, underwidgetBase + "/backgroundCog.png", zorderModifier, 255,51,50);
-	ubackgroundCog2 = newImage(main_window, 346, 230, 102,105, underwidgetBase + "/backgroundCog2.png", zorderModifier, 255,51,50);
-	ubrassBackplate = newImage(main_window, 219, 228, 144,144, underwidgetBase + "/brassBackplate.png", zorderModifier, 255,51,50);
-	ubigCog = newImage(main_window, 280, 315, 102,105, underwidgetBase + "/bigCog.png", zorderModifier, 255,51,50);
-	uwheel = newImage(main_window, 171, 223,78, 80, underwidgetBase + "/wheel.png", zorderModifier, 255,39,38);
-	ubigCog2 = newImage(main_window, 200, 213, 102,105, underwidgetBase + "/bigCog.png", zorderModifier, 255,51,50);
-	usmallCog = newImage(main_window, 277, 240, 58, 59, underwidgetBase + "/smallCog.png", zorderModifier, 255,29,28);
-	umountingNutsPlate = newImage(main_window, 300, 267, 51, 39, underwidgetBase + "/mountingNutsPlate.png", zorderModifier, 255);
-	ufrontplate = newImage(main_window, 181, 196, 207, 208, underwidgetBase + "/frontplate.png", zorderModifier, 255);
-	uhousing = newImage(main_window, 263, 278, 45, 45, underwidgetBase + "/housing.png", zorderModifier, 255);
-	uhourHand = newImage(main_window, 265, 186, 40, 165, underwidgetBase + "/hourHand.png", zorderModifier, 255,166,146);
-	urubberSurround = newImage(main_window, 133, 150, 304, 310, underwidgetBase + "/rubberSurround.png", zorderModifier, 255);
-	uhandles = newImage(main_window, 172, 265, 233, 82, underwidgetBase + "/handles.png", zorderModifier, 255);
-	uHourRing = newImage(main_window, 145, 150, 298, 298, underwidgetBase + "/24HourRing.png", zorderModifier, 255);
-	uwinderBelow = newImage(main_window, 202, 331, 27, 23, underwidgetBase + "/winderBelow.png", zorderModifier, 255);
-	uredTap = newImage(main_window, 197, 329, 29, 30, underwidgetBase + "/redTap.png", zorderModifier, 255);
-	uwinderTop = newImage(main_window, 225, 211, 27, 29, underwidgetBase + "/winderTop.png", zorderModifier, 255);
-	urimRubyHole = newImage(main_window, 322, 359, 18, 18, underwidgetBase + "/rimRubyHole.png", zorderModifier, 255);
-	urimRubyHoleCopy = newImage(main_window, 199, 252, 18, 18, underwidgetBase + "/rimRubyHoleCopy.png", zorderModifier, 255);
-	umountingNutsPlateNo2 = newImage(main_window, 220, 251, 42, 48, underwidgetBase + "/mountingNutsPlateNo2.png", zorderModifier, 255);
-	ushadow = newImage(main_window, 143, 148, 292, 292, underwidgetBase + "/shadow.png", zorderModifier, 255);
+	//draw a stationary UnderWidget if the actual widget cannot be found
+	checkUnderWidget();
+	if (underWidgetFound === false) {
+        zorderModifier = 0;   // for debugging purposes so that you can see the underwidget
+	//	newImage(parent, hOffset, vOffset, width, height, src, zOrder, opacity, hRegP, vRegP)
+		udarkness = newImage(main_window, 146, 150, 296,296, underwidgetBase + "/darkness.png", zorderModifier, 255);
+		ubackgroundCog = newImage(main_window, 216, 350, 102,105, underwidgetBase + "/backgroundCog.png", zorderModifier, 255,51,50);
+		ubackgroundCog2 = newImage(main_window, 346, 230, 102,105, underwidgetBase + "/backgroundCog2.png", zorderModifier, 255,51,50);
+		ubrassBackplate = newImage(main_window, 219, 228, 144,144, underwidgetBase + "/brassBackplate.png", zorderModifier, 255,51,50);
+		ubigCog = newImage(main_window, 280, 315, 102,105, underwidgetBase + "/bigCog.png", zorderModifier, 255,51,50);
+		uwheel = newImage(main_window, 171, 223,78, 80, underwidgetBase + "/wheel.png", zorderModifier, 255,39,38);
+		ubigCog2 = newImage(main_window, 200, 213, 102,105, underwidgetBase + "/bigCog.png", zorderModifier, 255,51,50);
+		usmallCog = newImage(main_window, 277, 240, 58, 59, underwidgetBase + "/smallCog.png", zorderModifier, 255,29,28);
+		umountingNutsPlate = newImage(main_window, 300, 267, 51, 39, underwidgetBase + "/mountingNutsPlate.png", zorderModifier, 255);
+		ufrontplate = newImage(main_window, 181, 196, 207, 208, underwidgetBase + "/frontplate.png", zorderModifier, 255);
+		uhousing = newImage(main_window, 263, 278, 45, 45, underwidgetBase + "/housing.png", zorderModifier, 255);
+		uhourHand = newImage(main_window, 265, 186, 40, 165, underwidgetBase + "/hourHand.png", zorderModifier, 255,166,146);
+		urubberSurround = newImage(main_window, 133, 150, 304, 310, underwidgetBase + "/rubberSurround.png", zorderModifier, 255);
+		uhandles = newImage(main_window, 172, 265, 233, 82, underwidgetBase + "/handles.png", zorderModifier, 255);
+		uHourRing = newImage(main_window, 145, 150, 298, 298, underwidgetBase + "/24HourRing.png", zorderModifier, 255);
+		uwinderBelow = newImage(main_window, 202, 331, 27, 23, underwidgetBase + "/winderBelow.png", zorderModifier, 255);
+		uredTap = newImage(main_window, 197, 329, 29, 30, underwidgetBase + "/redTap.png", zorderModifier, 255);
+		uwinderTop = newImage(main_window, 225, 211, 27, 29, underwidgetBase + "/winderTop.png", zorderModifier, 255);
+		urimRubyHole = newImage(main_window, 322, 359, 18, 18, underwidgetBase + "/rimRubyHole.png", zorderModifier, 255);
+		urimRubyHoleCopy = newImage(main_window, 199, 252, 18, 18, underwidgetBase + "/rimRubyHoleCopy.png", zorderModifier, 255);
+		umountingNutsPlateNo2 = newImage(main_window, 220, 251, 42, 48, underwidgetBase + "/mountingNutsPlateNo2.png", zorderModifier, 255);
+		ushadow = newImage(main_window, 143, 148, 292, 292, underwidgetBase + "/shadow.png", zorderModifier, 255);
+	}
 
 }());
 
@@ -1666,7 +1670,7 @@ function checkMoonWidget() {
 		log("%TIMEK-I-CHKM, 1 Checking the moon widget is installed.");
 		log("%TIMEK-I-CHKM, 2 Checking system.userWidgetsFolder - " + system.userWidgetsFolder);
 		
-                if (debug == 0) {
+                if (debug == 1) {
                    expandedForm_location = preferences.widgetLocationPref.value;
                 } else {
 		   // temporary development version of the widget
@@ -2013,6 +2017,7 @@ widget.onload = function () {
 	}
 
 	// check whether the under widget is installed
+	//this could be removed, as long as the check in order to draw a stationary UnderWidget is present, as it is performed earlied during startup
 	checkUnderWidget();
 
 	// check whether the moon widget is installed
